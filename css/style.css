@@ -990,3 +990,91 @@ form.blog-page-form i {
 .contact-page-form button:hover {
   background-color: var(--orange);
 }
+
+
+
+
+/* Header */
+    .header {
+      width: 100%;
+      background: #fff;
+      position: relative;
+      z-index: 999;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    }
+
+    .container {
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    .header-inner {
+      min-height: 80px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    /* Logo */
+    .logo a {
+      text-decoration: none;
+      color: #111;
+      font-size: 25px;
+      font-weight: 700;
+    }
+
+    /* Navigation */
+    .nav-link {
+      display: block;
+    }
+
+    .nav {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      gap: 30px;
+    }
+
+    .nav li {
+      list-style: none;
+    }
+
+    .nav li a {
+      text-decoration: none;
+      color: #111;
+      font-size: 16px;
+      font-weight: 500;
+      transition: all 0.3s ease;
+    }
+
+    .nav li a:hover {
+      color: #007bff;
+    }
+
+    /* Toggle Button */
+    .menu-toggle {
+      display: none;
+      width: 42px;
+      height: 42px;
+      padding: 8px;
+      border: none;
+      background: transparent;
+      cursor: pointer;
+
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .menu-toggle span {
+      width: 26px;
+      height: 2px;
+      background: #111;
+      display: block;
+      transition: 0.3s ease;
+    }
+
+   
