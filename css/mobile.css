@@ -1,5 +1,9 @@
 @media only screen and (max-width: 767px) {
 
+    body .container {
+        width: 100% !important;
+    }
+
     button.nav-btn {
         display: none;
     }
@@ -8,12 +12,19 @@
         padding: 10px;
     }
 
+    .nav-bar .row {
+        align-items: center;
+    }
+
     .col-md-3.nav-bar-img {
-        width: 266px;
+        width: 50%;
     }
 
     .col-md-7.nav-bar-btn {
-        width: 125px;
+        width: 50%;
+        justify-content: right;
+        display: flex;
+        padding-right: 30px;
     }
 
     .slider-container {
